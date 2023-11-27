@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  html{
+    @apply overflow-auto;
+    @apply font-Outfit;
+    @apply text-white;
+    @apply h-screen;
+  }
+  body{
+    @apply bg-dark;
+    @apply min-h-full;
+    @apply overflow-auto;
+  }
+
+}
+
+.gradient-blob{
+  @apply absolute;
+  @apply w-96;
+  @apply h-48;
+  @apply bg-gradient-to-tr;
+  @apply from-emerald-400;
+  @apply via-accent;
+  @apply to-primary;
+  @apply opacity-30;
+  @apply blur-3xl;
+}
+
+.link{
+  @apply hover:text-accent;
+}
+
+#projects::-webkit-scrollbar{
+  visibility: hidden;
+}
+

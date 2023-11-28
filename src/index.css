@@ -35,6 +35,33 @@
   @apply hover:text-accent;
 }
 
+.btn{
+  @apply p-1;
+  @apply rounded-md;
+  @apply text-center;
+  @apply max-w-full;
+  @apply flex;
+  @apply items-center;
+  @apply hover:bg-accent;
+  @apply border;
+  @apply border-transparent;
+}
+
+.btn-primary{
+  @apply btn;
+  @apply bg-primary;
+}
+
+.btn-secondary{
+  @apply btn;
+  @apply border-accent/30;
+}
+
+.placeholder::after{
+  content: "......";
+  visibility: hidden;
+}
+
 #projects::-webkit-scrollbar{
   visibility: hidden;
 }

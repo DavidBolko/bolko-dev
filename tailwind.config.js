@@ -32,6 +32,12 @@ export default {
         "primary": "#63A7D4",
         "secondary": "#091C39",
         "accent": "#2382E1"
+      },
+      dropShadow:{
+        "dev": [
+          '0px 0.5px 8px rgba(6, 95, 70, 0.05)',
+          '0px 0.5px 8px rgba(99, 167, 212, 0.15)'
+        ]
       }
     },
   },
